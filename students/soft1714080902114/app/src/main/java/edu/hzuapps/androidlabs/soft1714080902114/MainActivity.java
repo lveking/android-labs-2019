@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Main2Activity.class);
+                Intent intent = new Intent(MainActivity.this, List_View_Activity.class);
                 startActivity(intent);
             }
         });
@@ -25,22 +25,20 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Main2Activity.class);
+                Intent intent = new Intent(MainActivity.this, Find_url_Activity.class);
                 startActivity(intent);
             }
         });
 
-
-        Button button3 = (Button) findViewById(R.id.button_3);
-        button3.setOnClickListener(new View.OnClickListener() {
+        Button button4 = (Button) findViewById(R.id.button_4);
+        button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Main2Activity.class);
+                Intent intent = new Intent(MainActivity.this, Take_photo_Activity.class);
                 startActivity(intent);
             }
         });
-
-
-    }
+ }
 }
+
 

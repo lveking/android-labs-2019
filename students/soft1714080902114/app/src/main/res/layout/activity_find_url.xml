@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Find_url_Activity"
+    android:background="@drawable/backg">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="20dp"
+        android:text="请输入图片链接："/>
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/et_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:layout_below="@+id/textView2"
+        ></EditText>
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ck"
+        android:layout_weight="1000" />
+
+    <Button
+        android:id="@+id/ck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_path"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-2dp"
+        android:background="@color/colorPrimary"
+        android:onClick="click"
+        android:text="查看"
+        android:textColor="@color/colorAccent" />
+
+
+
+</RelativeLayout>
+
+
+

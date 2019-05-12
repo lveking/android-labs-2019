@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="et_path" type="id" />
+    <item name="iv" type="id" />
+    <item name="button" type="id" />
+    <item name="textView" type="id" />
+    <item name="file" type="id" />
+    <item name="thread1" type="id" />
+    <item name="thread3_complete" type="id" />
+    <item name="riven" type="id" />
+    <item name="mImageView" type="id" />
+    <item name="button_4" type="id" />
+</resources>
